@@ -1,0 +1,206 @@
+body{
+    background: rgba(0,77,34,0.3)
+    
+}
+
+body{
+    font-family: 'Lobster', cursive;
+}
+
+h1{
+    font-size: 5em;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+h2{
+    text-align: center;
+}
+nav{
+    margin-bottom: 10px;
+    background-color: darkslateblue;
+}
+
+a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+a{
+    padding-left: 50px;
+    color: black;
+    font-size: 25px;
+}
+td,tr,th,caption {
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+form{
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+input{
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(72,61, 139);
+}
+
+.zanon {
+    color: yellow;
+    font-size: 20px;
+    background-color: green;
+    
+}
+.zanon:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+.solution{
+    font-size: 20px;
+    font-style: italic;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.logojaune{
+    font-size: 80px;
+}
+
+.cadre{
+    border: 3px  solid rgb(0, 77, 34);
+    font-size: 40px;
+    border-radius: 20px;
+    color:rgb(0, 77, 34) ;
+    width: 400px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+}
+
+.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding-top: 80px;
+}
+
+.img1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.txt1{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    text-align: center;
+    margin: auto;
+}
+.img2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.txt2{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    text-align: center;
+    margin: auto;
+
+}
+.img3{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.txt3{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    text-align: center;
+    margin: auto;
+}
+
+.position{
+    position: relative;
+    bottom: 140px;
+}
+.logotitre{
+    display: block;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    z-index: 1;
+}
+
+.navbar{
+    display: block;
+    text-align: right;
+    position: relative;
+    bottom: 35px;
+}
+
+.formulaire{
+    border: 2px solid black;
+    box-shadow: 1px 1px 6px 8px rgb(72,61, 139);
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    background-color: wheat;
+}
+.imgform{
+    position: relative;
+    z-index: 2;
+    filter: opacity(60%);
+}
+fieldset{
+    position: relative;
+    bottom: 420px;
+    border: none;
+    z-index: 3;
+}
+label{
+    padding-top: 10px;       
+}
+input{
+    border-radius: 10px;
+}
+input:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+
+#prenom::placeholder{
+   color: rgb(8, 6, 8); 
+}
+
+#nom::placeholder{
+    color: rgb(8, 6, 8); 
+ }
+ 
+
+#entreprise::placeholder{
+    color: rgb(8, 6, 8); 
+ }
+ 
+ @media screen and (max-width: 1200px) {}

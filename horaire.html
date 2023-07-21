@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Horaires</title>
+        <link rel="icon" type="image/x-con" href="image/favicon.ico"> 
+        <link rel="stylesheet" href="Style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="image/zanon jaune.png" alt="logo" title="zanon" width="120px" >
+                <div class="navbar">
+                    <a href="index.html">Accueil</a>
+                    <a href="transport.html">Transport</a>
+                    <a href="logistique.html">Logistique </a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <table>
+                <caption><u>Ouvertures des bureaux</u></caption>
+                <tr>
+                    <th>Lundi</th>
+                    <th>Mardi</th>
+                    <th>Mercredi</th>
+                    <th>Jeudi</th>
+                    <th>Vendredi</th>
+                </tr>
+                <tr>
+                    <td>8h/12h</td>
+                    <td>8h/12h</td>
+                    <td>8h/12h</td>
+                    <td>8h/12h</td>
+                    <td rowspan="2">8h/12h</td>
+                </tr>
+                <tr>
+                    <td>13h30/18h</td>
+                    <td>13h30/18h</td>
+                    <td>13h30/18h</td>
+                    <td>13h30/18h</td>
+                </tr>
+            </table>
+
+            <div class="formulaire">
+                <div class="imgform">
+                    <img src="image/imgformu.jpg" alt="form" title="form" width="300px" height="400px" >
+                </div>
+                <fieldset>
+                <h2><u>Nous contacter</u></h2>
+                <form method="get" action="">
+                    <label for="nom">Votre Nom</label>
+                    <input type="text" name="name" id="nom" placeholder="Votre Nom" required>
+                    <label for="prenom">Votre Prénom</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Votre nom">
+                    <label for="date">Date de naissance</label>
+                    <input type="date">
+                    <label for="entreprise">Votre Entreprise</label>
+                    <input type="text" name="entreprise" id="entreprise" placeholder="XPO Logistics"><br>
+                    <input type="submit" value="Envoyer" >
+                </fieldset>
+                </form>
+            </div>
+             
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
